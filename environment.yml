@@ -6,6 +6,7 @@ channels:
 dependencies:
   - r-base=4.4.2
   - r-seurat
+  - bioconductor-geoquery
   - bioconductor-deseq2
   - r-biocmanager
   - r-tidyverse
