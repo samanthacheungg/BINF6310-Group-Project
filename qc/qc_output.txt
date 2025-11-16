@@ -1,0 +1,30 @@
+
+=== Loading count matrix ===
+Total cells in dataset: 136 
+
+=== Computing per-cell metrics from counts ===
+Summary of yeast genes detected per cell:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    123    1819    2188    2142    2621    3844 
+
+=== Reading mapped reads from BAM files ===
+Summary of total mapped reads per cell:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 235605 1990336 2427660 2403747 2865767 4617142 
+
+=== Applying QC Filters ===
+Cells failing mapped_reads < 40,000 : 0 
+Cells failing genes_detected < 1000: 11 
+Cells failing ERCC fraction > 0.74 : 2 
+
+Cells passing mapped_read filter   : 136 
+Cells passing gene_detected filter : 125 
+Cells passing ERCC filter          : 134 
+Cells passing ALL filters          : 125 
+
+=== Writing output files ===
+
+QC complete.
+Cells before filtering: 136 
+Cells after filtering : 125 
+
