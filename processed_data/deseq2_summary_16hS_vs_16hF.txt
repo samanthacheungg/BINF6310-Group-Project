@@ -1,0 +1,64 @@
+====================================================
+DESEQ2 DIFFERENTIAL EXPRESSION ANALYSIS SUMMARY
+====================================================
+
+Date: 2025-11-23 19:03:48 
+
+COMPARISON: 16h/S vs 16h/F
+  (Slow-growing vs Fast-growing cells at 16 hours)
+
+ANALYSIS PARAMETERS:
+  - Significance threshold: adjusted p-value < 0.05 (95% confidence)
+  - Fold change threshold: |log2FC| > 1 (2-fold change)
+  - Multiple testing correction: Benjamini-Hochberg (FDR)
+
+DATASET:
+  - Total genes tested: 5,973
+  - Total samples: 125
+
+RESULTS SUMMARY:
+  - Genes with padj < 0.05: 45 
+  - Genes meeting BOTH thresholds: 45
+    • Upregulated in 16h/S (Slow): 9 genes
+    • Downregulated in 16h/S (Slow): 36 genes
+
+TOP 10 UPREGULATED GENES (Higher in Slow-growing):
+----------------------------------------------------
+ 1. YDR223W: log2FC =  23.72, padj = 7.58e-18
+ 2. YIL073C: log2FC =  23.09, padj = 1.82e-17
+ 3. YDL214C: log2FC =  16.37, padj = 1.21e-15
+ 4. YGL004C: log2FC =  15.99, padj = 6.64e-07
+ 5. YCR021C: log2FC =  19.01, padj = 3.90e-06
+ 6. YOR383C: log2FC =   4.60, padj = 5.91e-03
+ 7. YJR063W: log2FC =   7.81, padj = 2.05e-02
+ 8. YKR044W: log2FC =   7.93, padj = 3.41e-02
+ 9. YFL031W: log2FC =   1.10, padj = 4.15e-02
+
+TOP 10 DOWNREGULATED GENES (Higher in Fast-growing):
+----------------------------------------------------
+ 1. YDR259C: log2FC = -22.58, padj = 7.90e-32
+ 2. YJL098W: log2FC = -23.14, padj = 3.56e-28
+ 3. YGL211W: log2FC = -23.38, padj = 4.17e-27
+ 4. YMR271C: log2FC = -23.04, padj = 2.03e-23
+ 5. YPR186C: log2FC = -22.68, padj = 3.13e-21
+ 6. YOL084W: log2FC = -22.08, padj = 3.67e-21
+ 7. YDR234W: log2FC = -22.75, padj = 4.00e-20
+ 8. YPR030W: log2FC = -21.24, padj = 1.46e-19
+ 9. YBR093C: log2FC = -20.88, padj = 2.43e-18
+10. YLR237W: log2FC = -21.58, padj = 5.18e-18
+
+OUTPUT FILES:
+----------------------------------------------------
+  1. DESeq2_results_16hS_vs_16hF_all.csv
+     - Complete results for all 5,973 genes
+
+  2. DESeq2_results_16hS_vs_16hF_significant.csv
+     - Filtered results: 45 significant genes
+     - Criteria: padj < 0.05 AND |log2FC| > 1
+
+  3. DESeq2_summary_16hS_vs_16hF.txt (this file)
+     - Text summary of analysis
+
+====================================================
+END OF SUMMARY
+====================================================
