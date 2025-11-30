@@ -1,4 +1,3 @@
-# Kyle's Step-by-Step Guide to Complete Your Role
 ## Variability & Dimensionality Reduction Analyst
 
 **Last Updated:** November 29, 2024
@@ -6,15 +5,15 @@
 
 ---
 
-## **WHAT YOUR ROLE IS ABOUT**
+## **WHAT Variability & Dimensionality Reduction Analyst ROLE IS ABOUT**
 
-You're analyzing how **gene expression variability** changes during **yeast aging**. Specifically:
+analyzing how **gene expression variability** changes during **yeast aging**. Specifically:
 
 - **Figure 3a:** Do 16-hour old cells with more cell divisions express more genes?
 - **Figure 3b:** Do 36-hour old cells with more cell divisions express more genes?
 - **Figure 3f:** Does FIT3 gene expression decrease as cells divide more?
 
-**The Good News:** Anaita already wrote the R scripts for you! You just need to run them and understand the results.
+**The Good News:** Anaita already wrote the R scripts! just need to run them and understand the results.
 
 ---
 
@@ -35,7 +34,7 @@ This automatically sets your working directory correctly!
 
 In RStudio, look at the **Files** pane (bottom-right). Navigate to the `scripts/` folder:
 
-### **Scripts Anaita Created (that you'll run):**
+### **Scripts Anaita Created:**
 
 1. **`figure3a_16h_correlation.R`**
    - Analyzes 16-hour old cells
@@ -151,7 +150,7 @@ Fill in the `[your values]` with what you got from running the scripts.
 
 ## **STEP 7: Assemble Final Figure 3**
 
-Once all individual figures are created, you'll combine them into one big figure. I'll create a script for you to do this.
+Once all individual figures are created, you'll combine them into one big figure.
 
 ---
 
@@ -174,16 +173,13 @@ This is OKAY! From the group chat, Anaita found:
 - Genes-detected correlations were slightly different
 - Reason: Different DESeq2 version, slightly different normalization
 
-You'll explain this in your presentation!
+explain this in your presentation!
 
 ---
 
-## **WHAT TO TELL YOUR TEAM**
+## **updates**
 
-After running these scripts, post in the group chat:
-
-```
-Hey team! I've run the correlation analyses for Figures 3a, 3b, and 3f.
+After running these scripts,
 
 Results:
 - Figure 3a (16h): R = [your value] (paper: 0.62)
@@ -192,10 +188,6 @@ Results:
 
 [Say if they match or not]
 
-Next step: I'll work on assembling the final Figure 3. Let me know if you need anything!
-```
-
----
 
 ## **YOUR NEXT STEPS (After reading this guide):**
 
@@ -205,8 +197,6 @@ Next step: I'll work on assembling the final Figure 3. Let me know if you need a
 4. [ ] Find/run figure3f script
 5. [ ] Fill in your results summary
 6. [ ] Post update to group chat
-7. [ ] Ask me (Claude) to help create the final assembled figure
+7. [ ] create the final assembled figure
 
 ---
-
-**You've got this! Start with Step 1 and take it one step at a time. I'm here to help! 🚀**
